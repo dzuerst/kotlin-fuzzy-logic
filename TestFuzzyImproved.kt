@@ -17,7 +17,6 @@ fun main(){
     var y_warm = 0.0
     var y_hot = 0.0
 
-
     // catatan penting
     // Variabel linguistik : variabel yang nilainya berupa kata contoh:
         // variabel linguistik                      : suhu
@@ -39,6 +38,9 @@ fun main(){
 
 
 
+
+
+        
 
     
     // TAHAP 1 FUZZIFIKASI 
@@ -185,7 +187,12 @@ fun inferenceFast(temperature: Double, cloud: Double){
 // ###### TAHAP 3 ATURAN DASAR #######
 // # 12 ATURAN
 // # UNTUK INFERENCE SLOW
-// speed=[]
+
+// variabel linguistik suhu
+val temperatures
+
+// variabel linguistik cloud cover
+
 inferenceSlow(y_freezing, y_sunny)
 inferenceSlow(y_freezing, y_partly_cloudy)
 inferenceSlow(y_freezing, y_overcast)
