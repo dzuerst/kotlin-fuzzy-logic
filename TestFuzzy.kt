@@ -217,8 +217,7 @@ var pembagian = 0.0
 var perkalian_new = 0.0
 var pembagian_new = 0.0
 
-val counterA = 0
-var counterB = 1
+
 for(doubleArray in speed){
     perkalian = doubleArray[0] * doubleArray[1]
     pembagian = doubleArray[0]
